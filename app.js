@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const passport = require('passport');
 
-const rtsIndex = require('./routes/index.router');
+//const rtsIndex = require('./routes/index.router');
 
 var app = express();
 
@@ -15,7 +15,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use(passport.initialize());
-app.use('/api', rtsIndex);
+//app.use('/api', rtsIndex);
 //health ok
 app.get('/', (req,res) =>{
     res.status(200).send("Server Ok");

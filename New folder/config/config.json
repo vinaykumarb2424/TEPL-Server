@@ -1,0 +1,13 @@
+{
+    "development": {
+        "PORT": 3000,
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "10m",
+       
+       "MONGODB_URI":"mongodb+srv://Vinay:Vinay@551888@cluster0.wx4mi.mongodb.net/MeanStackDB?retryWrites=true&w=majority"
+    },
+    "production": {
+        "PORT": 80,
+        "MONGODB_URI": "mongodb://xxxxx/DB_Name"
+    }
+}
